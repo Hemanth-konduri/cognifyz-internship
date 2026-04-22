@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Successful</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #f0f2f5; display: flex; justify-content: center; align-items: center; height: 100vh; }
+        .container { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 400px; text-align: center; }
+        h2 { color: #4CAF50; margin-bottom: 20px; }
+        p { color: #555; margin-bottom: 10px; font-size: 15px; }
+        span { font-weight: bold; color: #333; }
+        a { display: inline-block; margin-top: 20px; padding: 10px 25px; background: #4CAF50; color: white; border-radius: 5px; text-decoration: none; }
+        a:hover { background: #45a049; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🎉 Registration Successful!</h2>
+        <p>Welcome, <span><%= name %></span>!</p>
+        <p>Email: <span><%= email %></span></p>
+        <p>Phone: <span><%= phone %></span></p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
